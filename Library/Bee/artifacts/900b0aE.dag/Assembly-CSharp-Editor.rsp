@@ -420,12 +420,6 @@
 "Assets/Skillz/Internal/Build/iOS/Editor/XCodeEditor/XCProject.cs"
 "Assets/Skillz/Internal/Build/iOS/Editor/XCodeEditor/XMiniJSON.cs"
 "Assets/Skillz/Internal/Build/iOS/Editor/XcodeProjectSettings.cs"
-"Assets/Solitaire/EasyMobile/Editor/Common/SgLib/FileIO.cs"
-"Assets/Solitaire/EasyMobile/Editor/EM_About.cs"
-"Assets/Solitaire/EasyMobile/Editor/EM_Constants.cs"
-"Assets/Solitaire/EasyMobile/Editor/EM_MenuManager.cs"
-"Assets/Solitaire/EasyMobile/Editor/EM_PluginManager.cs"
-"Assets/Solitaire/EasyMobile/Editor/EM_ProjectSettings.cs"
 "Assets/Solitaire/Editor/RemoveMobileSupportWarningWebBuild.cs"
 "Assets/Solitaire/NavySoftGamesSolitaireKlondike/Scripts/MonoHandler/Editor/MonoHandlerInspector.cs"
 -langversion:9.0

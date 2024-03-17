@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AllGamesMenu.unity
+- path: Assets/KnifeHit/Scene/GameScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
