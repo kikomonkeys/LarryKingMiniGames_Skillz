@@ -173,7 +173,6 @@ public class StatusBar : MonoBehaviour
             _score = value;
           
             scoreText.text =string.Format("{0}", parseScoreText(_score)) ;
-            UnityiOSHandler.instance.SendScore(_score, false);
         }
     }
 

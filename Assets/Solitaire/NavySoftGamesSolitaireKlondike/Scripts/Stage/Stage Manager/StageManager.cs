@@ -293,9 +293,7 @@ public partial class StageManager : MonoBehaviour, ICardActions, IManagerBaseCom
     void initalizeSDK()
     {
         //  GameStakeSDK.instance.InitializeSDK(); // call this when game has begun;
-#if UNITY_IOS
-        NativeAPI.createBannerAd("BOTTOM", "85832a9cbbac1bc9");
-#endif
+
 
     }
     void StartTimer()
@@ -1050,24 +1048,25 @@ public partial class StageManager : MonoBehaviour, ICardActions, IManagerBaseCom
     public IEnumerator ShowLCOption(float waittime)
     {
         yield return new WaitForSeconds(waittime);
-        Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
+        //Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
+        LoadGameover();
 
-        if (!showRewardedAdPopup)
-        {
-            timeUpObj.SetActive(true);
-            yield return new WaitForSeconds(2f);
-            timeUpObj.SetActive(false);
+        //if (!showRewardedAdPopup)
+        //{
+        //    timeUpObj.SetActive(true);
+        //    yield return new WaitForSeconds(2f);
+        //    timeUpObj.SetActive(false);
 
-            if (isTimeUp)
-                ShowRewardedAdPopup(true);
-            else
-                ShowRewardedAdPopup(false);
-        }
-        else
-        {
-            //load lc
-            LoadGameover();
-        }
+        //    if (isTimeUp)
+        //        ShowRewardedAdPopup(true);
+        //    else
+        //        ShowRewardedAdPopup(false);
+        //}
+        //else
+        //{
+        //    //load lc
+        //    LoadGameover();
+        //}
     }
     public void ShowLCOptionNow()
     {

@@ -26,10 +26,7 @@ namespace BubbleBlitz_GameStake
         {
             // OnVideoSuccessEvent();
 
-#if UNITY_IOS
-            UnityiOSHandler.instance.SetCallBack(OnVideoSuccessEvent);
-            NativeAPI.createRewardedAd("cfb804ee37b7edcc");
-#endif
+
 
         }
         public void OnVideoSuccessEvent()

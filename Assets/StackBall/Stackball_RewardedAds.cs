@@ -23,10 +23,7 @@ public class Stackball_RewardedAds : MonoBehaviour
     {
          //OnVideoSuccessEvent();
 
-#if UNITY_IOS
-         UnityiOSHandler.instance.SetCallBack(OnVideoSuccessEvent);
-         NativeAPI.createRewardedAd("5a2dbc4d4eab14ad");
-#endif
+
 
     }
     public void OnVideoSuccessEvent()

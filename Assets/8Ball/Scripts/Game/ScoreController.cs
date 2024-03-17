@@ -154,9 +154,7 @@ public class ScoreController : MonoBehaviour
             StartCoroutine(StartCountDown(0f));
         }
 
-#if UNITY_IOS
-         NativeAPI.createBannerAd("BOTTOM","58dc113cd3002e9f");
-#endif
+
     }
     void EnableAudioListener()
     {
@@ -797,7 +795,6 @@ public class ScoreController : MonoBehaviour
             }
 
             bestScoreUI.text = PlayerPrefs.GetInt("Score").ToString();
-            UnityiOSHandler.instance.SendScore(TotalScore, false);
 
         }
     }
@@ -1224,20 +1221,22 @@ public class ScoreController : MonoBehaviour
     public IEnumerator ShowLCOption(float waittime)
     {
         yield return new WaitForSeconds(waittime);
-        Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
-        if (!showRewardedAdPopup)
-        {
-            if (isTimeUp)
-                ShowRewardedAdPopup(true);
-            else
-                ShowRewardedAdPopup(false);
+        StartCoroutine("ShowResultMenu");
+
+        //Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
+        //if (!showRewardedAdPopup)
+        //{
+        //    if (isTimeUp)
+        //        ShowRewardedAdPopup(true);
+        //    else
+        //        ShowRewardedAdPopup(false);
 
 
-        }
-        else
-        {
-            StartCoroutine("ShowResultMenu");
-        }
+        //}
+        //else
+        //{
+        //    StartCoroutine("ShowResultMenu");
+        //}
     }
     public void VideoSuccessEvent(bool isLives)
     {
@@ -1316,7 +1315,6 @@ public class ScoreController : MonoBehaviour
         shotPowerscript.HidePowerBar();//mohith
 
         ResultMenu.SetActive(true);
-        UnityiOSHandler.instance.SendScore(TotalScore, true);
         Invoke(nameof(ShowPlayAgainBtn), 3f);
     }
 

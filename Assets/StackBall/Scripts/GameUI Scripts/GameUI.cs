@@ -149,10 +149,7 @@ public class GameUI : MonoBehaviour
                 PlayBtnCLicked();
             }
         }
-        UnityiOSHandler.instance.SendScore(Stackball_GameStake.ScoreManager.instance.score, false);
-#if UNITY_IOS
-         NativeAPI.createBannerAd("BOTTOM","efa1f14bce661a2a");
-#endif
+      
     }
 
     private float time;
@@ -456,7 +453,6 @@ public class GameUI : MonoBehaviour
         gameOverBestText.text = PlayerPrefs.GetInt("HighScore").ToString();
         //StartCoroutine(EnableScoreSubmissionObj(0.75f));
 
-        UnityiOSHandler.instance.SendScore(Stackball_GameStake.ScoreManager.instance.score, true);
 
         Invoke(nameof(EnableNextBtn), 3f);
 
@@ -524,22 +520,23 @@ public class GameUI : MonoBehaviour
     public IEnumerator ShowLCOption(float waittime)
     {
         yield return new WaitForSeconds(waittime);
-        Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
-        if (!showRewardedAdPopup)
-        {
-            if (isTimeUp)
-                ShowRewardedAdPopup(true);
-            else
-                ShowRewardedAdPopup(false);
+        EnableGameoverPage();
+        //Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
+        //if (!showRewardedAdPopup)
+        //{
+        //    if (isTimeUp)
+        //        ShowRewardedAdPopup(true);
+        //    else
+        //        ShowRewardedAdPopup(false);
 
 
-        }
-        else
-        {
-            //load lc
-            EnableGameoverPage();
-            showRewardedAdPopup = false;
-        }
+        //}
+        //else
+        //{
+        //    //load lc
+        //    EnableGameoverPage();
+        //    showRewardedAdPopup = false;
+        //}
     }
     public void ShowLcOptionNow()
     {

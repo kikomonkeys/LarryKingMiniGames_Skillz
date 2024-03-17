@@ -12,7 +12,7 @@ public class SendScore : MonoBehaviour
     }
     void PostScore()
     {
-        UnityiOSHandler.instance.SendScore(StageManager.instance.finalScore, true);
+       // UnityiOSHandler.instance.SendScore(StageManager.instance.finalScore, true);
     }
    
 }

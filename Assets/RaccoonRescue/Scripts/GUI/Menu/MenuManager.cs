@@ -150,20 +150,22 @@ public class MenuManager : MonoBehaviour
 	public GameObject heartlivesPivot, timerObj;
 	public void ShowLCOption()
 	{
+		GameEvent.Instance.GameStatus = GameState.WinMenu;
+
 		//Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
-		if (!showRewardedAdPopup)
-		{
-			if (isTimeUp)
-				ShowRewardedAdPopup(true);
-			else
-				ShowRewardedAdPopup(false);
+		//if (!showRewardedAdPopup)
+		//{
+		//	if (isTimeUp)
+		//		ShowRewardedAdPopup(true);
+		//	else
+		//		ShowRewardedAdPopup(false);
 
 			
-		}
-		else
-		{
-			GameEvent.Instance.GameStatus = GameState.WinMenu;
-		}
+		//}
+		//else
+		//{
+		//	GameEvent.Instance.GameStatus = GameState.WinMenu;
+		//}
 	}
 	public void VideoSuccessEvent(bool isLives)
 	{

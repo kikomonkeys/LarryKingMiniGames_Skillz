@@ -179,14 +179,8 @@ public class GamePlayManager : MonoBehaviour
         //StartCoroutine(StopTheGame());
 
          //isPlayingGame = true;
-        Invoke(nameof(ShowBannerAd), 2f);
     }
-    void ShowBannerAd()
-    {
-        #if UNITY_IOS
-        NativeAPI.createBannerAd("BOTTOM", "ca8ca2ae1823aa42");
-        #endif
-    }
+    
    
     public void StartGameNow()//piper
     {
@@ -462,19 +456,20 @@ public class GamePlayManager : MonoBehaviour
     }
     public void ShowLCOption()
     {
-        if (!showRewardedAdPopup)
-        {
-            if (isTimeUp)
-                ShowRewardedAdPopup(true);
-            else
-                ShowRewardedAdPopup(false);
+        ShowLC();
+        //if (!showRewardedAdPopup)
+        //{
+        //    if (isTimeUp)
+        //        ShowRewardedAdPopup(true);
+        //    else
+        //        ShowRewardedAdPopup(false);
 
-            showRewardedAdPopup = true;
-        }
-        else
-        {
-            ShowLC();
-        }
+        //    showRewardedAdPopup = true;
+        //}
+        //else
+        //{
+        //    ShowLC();
+        //}
     }
     public void ShowLC()
     {
@@ -835,10 +830,7 @@ public class GamePlayManager : MonoBehaviour
         //    currentKnife.ThrowKnife();
         //    StartCoroutine(GenerateKnife());
         //}
-        if (isPlayingGame)
-        {
-            UnityiOSHandler.instance.SendScore(GameManager.score, false);
-        }
+       
     }
 
     public void SpawnCircle()
@@ -1122,7 +1114,6 @@ public class GamePlayManager : MonoBehaviour
         SoundManager.instance.PlaybtnSfx();
         Time.timeScale = 1;
 
-        UnityiOSHandler.instance.SendScore(finalScore, true);
         GameManager.score = 0;
         GameManager.oppoScore = 0;
         GameManager.Stage = 0;

@@ -126,7 +126,6 @@ public class Circle : MonoBehaviour
         }
 
         GameManager.score+= GameManager.Stage+1;
-        UnityiOSHandler.instance.SendScore(GameManager.score, false);
 
     }
 

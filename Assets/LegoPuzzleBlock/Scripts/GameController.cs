@@ -18,9 +18,7 @@ public class GameController : Singleton<GameController>
     private void Start()
     {
 		Invoke(nameof(FindObj), 3);
-#if UNITY_IOS
-         NativeAPI.createBannerAd("BOTTOM","c6229ae5dff5ca8a");
-#endif
+
 	}
 
 	void FindObj()
@@ -94,21 +92,23 @@ public class GameController : Singleton<GameController>
 	public IEnumerator ShowLCOption(float waittime)
 	{
 		yield return new WaitForSeconds(waittime);
-		Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
-		if (!showRewardedAdPopup)
-		{
-			if (isTimeUp)
-				ShowRewardedAdPopup(true);
-			else
-				ShowRewardedAdPopup(false);
+		GamePlay.Instance.ShowLC();
+
+		//Debug.LogError("showrewardedadPopup::" + showRewardedAdPopup);
+		//if (!showRewardedAdPopup)
+		//{
+		//	if (isTimeUp)
+		//		ShowRewardedAdPopup(true);
+		//	else
+		//		ShowRewardedAdPopup(false);
 
 
-		}
-		else
-		{
-			//load lc
-			GamePlay.Instance.ShowLC();
-		}
+		//}
+		//else
+		//{
+		//	//load lc
+		//	GamePlay.Instance.ShowLC();
+		//}
 	}
 	public void ShowLCOptionNow()
     {

@@ -25,10 +25,7 @@ namespace Solitaire_GameStake
         {
            // OnVideoSuccessEvent();
 
-#if UNITY_IOS
-         UnityiOSHandler.instance.SetCallBack(OnVideoSuccessEvent);
-         NativeAPI.createRewardedAd("e58b7dc5e5fbbc64");
-#endif
+
 
         }
         public void OnVideoSuccessEvent()

@@ -22,7 +22,6 @@ public class ScoreManager : Singleton<ScoreManager>
 		Score += scoreToAdd;
 
 		StartCoroutine (SetScore(oldScore, Score));
-		UnityiOSHandler.instance.SendScore(Score, false);
 
 		if (doAnimate) {
 			Vector3 mousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);

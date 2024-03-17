@@ -103,7 +103,6 @@ public class Apple : MonoBehaviour {
 				GamePlayManager.instance.SpawnPointsText(GameManager.Stage * 5, 100);
 			}
 			Destroy(gameObject, 3f);
-			UnityiOSHandler.instance.SendScore(GameManager.score, false);
 
 			//if (!other.gameObject.GetComponent<Knife> ().isHitted) {
 

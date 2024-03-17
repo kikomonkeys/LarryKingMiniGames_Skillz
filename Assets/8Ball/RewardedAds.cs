@@ -26,10 +26,7 @@ namespace PoolGame_GameStake
         {
             //OnVideoSuccessEvent();
 
-#if UNITY_IOS
-         UnityiOSHandler.instance.SetCallBack(OnVideoSuccessEvent);
-         NativeAPI.createRewardedAd("2b03a53be0fb0763");
-#endif
+
 
         }
         public void OnVideoSuccessEvent()

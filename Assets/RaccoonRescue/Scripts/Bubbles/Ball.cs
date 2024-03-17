@@ -1740,8 +1740,7 @@ public class Ball : MonoBehaviour
 
             Destroy(poptxt, 2);
         }
-        if(UnityiOSHandler.instance)
-            UnityiOSHandler.instance.SendScore(mainscript.Score, false);
+
     }
 
     Color GetScoreColor()

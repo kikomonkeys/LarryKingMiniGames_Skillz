@@ -129,7 +129,6 @@ public class MenuComplete : MonoBehaviour {
 		EnableNextBtn();
 		//PlayerPrefs.SetString("&^&#@_2021", StringCipher.Encrypt(totalScore.ToString(), "Piper#2021202"));
 		//GameStakeSDK.instance.OnGameComplete(ShowScoreSubmissionObj);
-		UnityiOSHandler.instance.SendScore(totalScore, true);
 	}
 
 	float waittime = 0.25f;

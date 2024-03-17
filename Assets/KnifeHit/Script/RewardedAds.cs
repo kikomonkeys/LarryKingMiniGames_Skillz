@@ -24,10 +24,7 @@ namespace KnifeGame_Gamestake
         {
              //OnVideoSuccessEvent();
 
-#if UNITY_IOS
-            UnityiOSHandler.instance.SetCallBack(OnVideoSuccessEvent);
-            NativeAPI.createRewardedAd("54b50b86116e4cb2");
-#endif
+
         }
         public void OnVideoSuccessEvent()
         {

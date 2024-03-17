@@ -25,10 +25,7 @@ namespace BlockPuzzle_GameStake
         {
             //OnVideoSuccessEvent();
 
-#if UNITY_IOS
-         UnityiOSHandler.instance.SetCallBack(OnVideoSuccessEvent);
-         NativeAPI.createRewardedAd("20fe93e7eda43d67");
-#endif
+
 
         }
         public void OnVideoSuccessEvent()

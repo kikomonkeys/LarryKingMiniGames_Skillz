@@ -44,7 +44,6 @@ public class GameOver : MonoBehaviour {
 		int totalscore;
 		totalscore = score + bonusScore;
 		finalscr = totalscore;
-		UnityiOSHandler.instance.SendScore(finalscr, true);
 
 		//Invoke(nameof(ShowScoreSubmissionObj), 0f);
 		Invoke(nameof(EnableNextBtn), 2f);
