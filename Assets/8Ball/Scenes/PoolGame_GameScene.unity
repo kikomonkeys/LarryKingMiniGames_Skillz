@@ -3730,6 +3730,7 @@ MonoBehaviour:
   countDownObj: {fileID: 1501019216}
   WhiteBall: {fileID: 396246494}
   toastMsg: {fileID: 2617635689446026023}
+  loadingPage: {fileID: 0}
   isQuitBtnClicked: 0
   commonTrickScore: 0
   bonusStreakUi: {fileID: 0}
@@ -17456,7 +17457,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 252173592}
         m_TargetAssemblyTypeName: ScoreController, Assembly-CSharp
-        m_MethodName: GameOver_PlayAgainBtnClicked
+        m_MethodName: SubmitScoreSkillzbtnClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17488,7 +17489,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9c55037f7f6882c4ea575d05c862ee4a, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -34089,7 +34090,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 252173592}
         m_TargetAssemblyTypeName: ScoreController, Assembly-CSharp
-        m_MethodName: GameOver_PlayAgainBtnClicked
+        m_MethodName: SubmitScorebtnClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

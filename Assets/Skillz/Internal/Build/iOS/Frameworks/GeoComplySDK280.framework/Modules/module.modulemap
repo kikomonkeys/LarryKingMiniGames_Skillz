@@ -1,0 +1,6 @@
+framework module GeoComplySDK280 {
+  umbrella header "GeoComplySDK280.h"
+
+  export *
+  module * { export * }
+}

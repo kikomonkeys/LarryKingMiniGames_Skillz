@@ -431,6 +431,7 @@ public class GameUI : MonoBehaviour
         Invoke(nameof(EnableNextBtn), 3f);
         //StartCoroutine(EnableScoreSubmissionObj(0.75f));
         Invoke(nameof(EnableNextBtn), 3f);
+
         //PlayerPrefs.SetString("P_@123$₹", StringCipher.Encrypt(ScoreManager.instance.score.ToString(), "Piper#102030"));
         //GameStakeSDK.instance.OnGameComplete(ShowToast);
 
@@ -455,7 +456,7 @@ public class GameUI : MonoBehaviour
 
 
         Invoke(nameof(EnableNextBtn), 3f);
-
+        TryToSubmitScoreToSkillz();
         // PlayerPrefs.SetString("P_@123$₹", StringCipher.Encrypt(ScoreManager.instance.score.ToString(), "Piper#102030"));
         //GameStakeSDK.instance.OnGameComplete(ShowToast);
         //player.playerState = Player.PlayerState.none;
@@ -596,5 +597,66 @@ public class GameUI : MonoBehaviour
         EnableGameoverPage();
     }
 
+    #endregion
+
+
+    #region Score Submitting to Skillz
+
+    public GameObject loadingPage;
+
+    public void SubmitScorebtnClicked()
+    {
+        if (loadingPage != null)
+            loadingPage.SetActive(true);
+
+        if (scoreSubmitSuccess)
+        {
+            Debug.Log("Score submit success");
+            StartCoroutine(MatchComplete());
+        }
+        else
+        {
+            StartCoroutine(RetrySubmitScoreToSkillz());
+            StartCoroutine(MatchComplete());
+            scoreSubmitSuccess = false;
+        }
+    }
+
+    bool scoreSubmitSuccess;
+    void TryToSubmitScoreToSkillz()
+    {
+        string score = Stackball_GameStake.ScoreManager.instance.score.ToString();
+        SkillzCrossPlatform.SubmitScore(score, OnSuccess, OnFailure);
+
+        //firebase log event
+        //if (FirebaseInit.instance)
+        //    FirebaseInit.instance.FirebaseGameOverLogEvent(int.Parse(score));
+
+        //tenjin log event
+        // TenjinInit.instance.SendGameOverEvent(score);
+    }
+
+    void OnSuccess()
+    {
+        scoreSubmitSuccess = true;
+    }
+
+    void OnFailure(string reason)
+    {
+        //Debug.LogWarning("Fail: " + reason);
+        StartCoroutine(RetrySubmitScoreToSkillz());
+        SkillzCrossPlatform.DisplayTournamentResultsWithScore(Stackball_GameStake.ScoreManager.instance.score.ToString());
+    }
+
+    IEnumerator RetrySubmitScoreToSkillz()
+    {
+        yield return new WaitForSeconds(1);
+        TryToSubmitScoreToSkillz();
+    }
+    IEnumerator MatchComplete()
+    {
+        yield return new WaitForSeconds(1);
+        SkillzCrossPlatform.ReturnToSkillz();
+    }
     #endregion
 }

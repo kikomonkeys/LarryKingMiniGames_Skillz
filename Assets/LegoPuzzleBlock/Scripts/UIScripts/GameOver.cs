@@ -17,8 +17,10 @@ public class GameOver : MonoBehaviour {
     public int finalscr;
 
 	public static GameOver instance;
+	int totalscore;
 
-    private void Awake()
+
+	private void Awake()
     {
 		instance = this;
     }
@@ -41,12 +43,12 @@ public class GameOver : MonoBehaviour {
 		CurrencyManager.Instance.AddCoinBalance (coinReward);
 		isStartTimer = true;
 
-		int totalscore;
 		totalscore = score + bonusScore;
 		finalscr = totalscore;
 
 		//Invoke(nameof(ShowScoreSubmissionObj), 0f);
 		Invoke(nameof(EnableNextBtn), 2f);
+		TryToSubmitScoreToSkillz();
 		//GameStakeSDK.instance.OnGameComplete(finalscr);
 		//PlayerPrefs.SetString("&^&#@_2021", StringCipher.Encrypt(finalscr.ToString(), "Piper#2021202"));
 		//GameStakeSDK.instance.OnGameComplete(ShowScoreSubmissionObj);
@@ -115,4 +117,64 @@ public class GameOver : MonoBehaviour {
     {
         Application.OpenURL("https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME_HERE");
     }
+
+	#region Score Submitting to Skillz
+
+	public GameObject loadingPage;
+
+	public void SubmitScorebtnClicked()
+	{
+		if (loadingPage != null)
+			loadingPage.SetActive(true);
+
+		if (scoreSubmitSuccess)
+		{
+			Debug.Log("Score submit success");
+			StartCoroutine(MatchComplete());
+		}
+		else
+		{
+			StartCoroutine(RetrySubmitScoreToSkillz());
+			StartCoroutine(MatchComplete());
+			scoreSubmitSuccess = false;
+		}
+	}
+
+	bool scoreSubmitSuccess;
+	void TryToSubmitScoreToSkillz()
+	{
+		string score = totalscore.ToString();
+		SkillzCrossPlatform.SubmitScore(score, OnSuccess, OnFailure);
+
+		//firebase log event
+		//if (FirebaseInit.instance)
+		//    FirebaseInit.instance.FirebaseGameOverLogEvent(int.Parse(score));
+
+		//tenjin log event
+		// TenjinInit.instance.SendGameOverEvent(score);
+	}
+
+	void OnSuccess()
+	{
+		scoreSubmitSuccess = true;
+	}
+
+	void OnFailure(string reason)
+	{
+		//Debug.LogWarning("Fail: " + reason);
+		StartCoroutine(RetrySubmitScoreToSkillz());
+		SkillzCrossPlatform.DisplayTournamentResultsWithScore(totalscore.ToString());
+	}
+
+	IEnumerator RetrySubmitScoreToSkillz()
+	{
+		yield return new WaitForSeconds(1);
+		TryToSubmitScoreToSkillz();
+	}
+	IEnumerator MatchComplete()
+	{
+		yield return new WaitForSeconds(1);
+		SkillzCrossPlatform.ReturnToSkillz();
+	}
+	#endregion
 }

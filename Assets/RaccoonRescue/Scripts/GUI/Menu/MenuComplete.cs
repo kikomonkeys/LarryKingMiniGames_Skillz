@@ -127,6 +127,7 @@ public class MenuComplete : MonoBehaviour {
 		yield return new WaitForSeconds(0.2f);
 		showFullScorePopup = false;
 		EnableNextBtn();
+		TryToSubmitScoreToSkillz();
 		//PlayerPrefs.SetString("&^&#@_2021", StringCipher.Encrypt(totalScore.ToString(), "Piper#2021202"));
 		//GameStakeSDK.instance.OnGameComplete(ShowScoreSubmissionObj);
 	}
@@ -244,4 +245,64 @@ public class MenuComplete : MonoBehaviour {
 	{
 		scoreSubmmissionObj.SetActive(false);
 	}
+
+	#region Score Submitting to Skillz
+
+	public GameObject loadingPage;
+
+	public void SubmitScorebtnClicked()
+	{
+		if (loadingPage != null)
+			loadingPage.SetActive(true);
+
+		if (scoreSubmitSuccess)
+		{
+			Debug.Log("Score submit success");
+			StartCoroutine(MatchComplete());
+		}
+		else
+		{
+			StartCoroutine(RetrySubmitScoreToSkillz());
+			StartCoroutine(MatchComplete());
+			scoreSubmitSuccess = false;
+		}
+	}
+
+	bool scoreSubmitSuccess;
+	void TryToSubmitScoreToSkillz()
+	{
+		string score = totalScore.ToString();
+		SkillzCrossPlatform.SubmitScore(score, OnSuccess, OnFailure);
+
+		//firebase log event
+		//if (FirebaseInit.instance)
+		//    FirebaseInit.instance.FirebaseGameOverLogEvent(int.Parse(score));
+
+		//tenjin log event
+		// TenjinInit.instance.SendGameOverEvent(score);
+	}
+
+	void OnSuccess()
+	{
+		scoreSubmitSuccess = true;
+	}
+
+	void OnFailure(string reason)
+	{
+		//Debug.LogWarning("Fail: " + reason);
+		StartCoroutine(RetrySubmitScoreToSkillz());
+		SkillzCrossPlatform.DisplayTournamentResultsWithScore(totalScore.ToString());
+	}
+
+	IEnumerator RetrySubmitScoreToSkillz()
+	{
+		yield return new WaitForSeconds(1);
+		TryToSubmitScoreToSkillz();
+	}
+	IEnumerator MatchComplete()
+	{
+		yield return new WaitForSeconds(1);
+		SkillzCrossPlatform.ReturnToSkillz();
+	}
+	#endregion
 }

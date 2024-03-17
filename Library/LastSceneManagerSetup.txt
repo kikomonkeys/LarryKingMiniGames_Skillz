@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/8Ball/Scenes/PoolGame_GameScene.unity
+- path: Assets/AllGamesMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

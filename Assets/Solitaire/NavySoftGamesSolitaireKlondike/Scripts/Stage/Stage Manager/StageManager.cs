@@ -486,6 +486,7 @@ public partial class StageManager : MonoBehaviour, ICardActions, IManagerBaseCom
         
 
         Invoke(nameof(EnableNextButn), 2f);
+        TryToSubmitScoreToSkillz();
         //PlayerPrefs.SetString("$#@_123", StringCipher.Encrypt(finalScore.ToString(), "Piper#181929"));
         //GameStakeSDK.instance.OnGameComplete(ShowScoreSubmitted);
 
@@ -1116,5 +1117,65 @@ public partial class StageManager : MonoBehaviour, ICardActions, IManagerBaseCom
         //load lc
     }
 
-#endregion
+    #endregion
+
+    #region Score Submitting to Skillz
+
+    public GameObject loadingPage;
+
+    public void SubmitScorebtnClicked()
+    {
+        if (loadingPage != null)
+            loadingPage.SetActive(true);
+
+        if (scoreSubmitSuccess)
+        {
+            Debug.Log("Score submit success");
+            StartCoroutine(MatchComplete());
+        }
+        else
+        {
+            StartCoroutine(RetrySubmitScoreToSkillz());
+            StartCoroutine(MatchComplete());
+            scoreSubmitSuccess = false;
+        }
+    }
+
+    bool scoreSubmitSuccess;
+    void TryToSubmitScoreToSkillz()
+    {
+        string score = finalScore.ToString();
+        SkillzCrossPlatform.SubmitScore(score, OnSuccess, OnFailure);
+
+        //firebase log event
+        //if (FirebaseInit.instance)
+        //    FirebaseInit.instance.FirebaseGameOverLogEvent(int.Parse(score));
+
+        //tenjin log event
+        // TenjinInit.instance.SendGameOverEvent(score);
+    }
+
+    void OnSuccess()
+    {
+        scoreSubmitSuccess = true;
+    }
+
+    void OnFailure(string reason)
+    {
+        //Debug.LogWarning("Fail: " + reason);
+        StartCoroutine(RetrySubmitScoreToSkillz());
+        SkillzCrossPlatform.DisplayTournamentResultsWithScore(finalScore.ToString());
+    }
+
+    IEnumerator RetrySubmitScoreToSkillz()
+    {
+        yield return new WaitForSeconds(1);
+        TryToSubmitScoreToSkillz();
+    }
+    IEnumerator MatchComplete()
+    {
+        yield return new WaitForSeconds(1);
+        SkillzCrossPlatform.ReturnToSkillz();
+    }
+    #endregion
 }

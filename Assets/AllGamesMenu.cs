@@ -5,10 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class AllGamesMenu : MonoBehaviour
 {
+    
+
     void Start()
     {
         SetOtherGamesPhysics();
     }
+
+    public void PlayBtnClicked()
+    {
+
+       // SkillzManager.myGameName = SkillzManager.GameName.PoolBall;
+        SkillzCrossPlatform.LaunchSkillz();
+    }
+
 
     public void OpenBlockGame()
     {

@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;HBDOTween;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -584,6 +584,113 @@
     <Compile Include="Assets/Solitaire/NavySoftGamesSolitaireKlondike/Scripts/Stage/View Implementation/CardMove.cs" />
     <Compile Include="Assets/Solitaire/NavySoftGamesSolitaireKlondike/Scripts/Calendar/CalendarScreen.cs" />
     <Compile Include="Assets/8Ball/Scripts/StartScriptController.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/iOS/BridgedAPI.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_FloorController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/TournamentSelectionController.cs" />
+    <Compile Include="Assets/Skillz/Settings/SkillzPackageImportListener.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_ProgressionRoomController.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/NonEditorBasedBridgedAPI.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_PaddleController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/ProgressionResponsesTemplate.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/LetterSpacing.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_SubmitScoreMenuController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzCrossPlatform.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/Enums.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzState.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/iOS/InteropMethods.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_ScaleAnimation.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SceneField.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/UnityEditor/BridgedAPI.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_AchievementUIController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/MiniJSON.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/SkillzHelpButtonModal.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_ButtonAnimator.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_UIAnimator.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Android/SkillzScoreCallback.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/SeasonsTemplate.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/MatchParametersTemplates.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_Fairness.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/BuildDotGradle.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_Managers.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/UIGradientUtils.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Android/BridgedAPI.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/Constants.cs" />
+    <Compile Include="Assets/Skillz/Internal/UnityEditor/ReadOnlyPropertyDrawer.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_BallController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/Unity2019Dot3PostGenerateGradleProject.cs" />
+    <Compile Include="Assets/Skillz/Settings/SkillzSettings.cs" />
+    <Compile Include="Assets/Skillz/Internal/Delegates/SkillzDelegate.cs" />
+    <Compile Include="Assets/Skillz/Settings/AndroidFilesGenerator.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_BrickBreakScore.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/IBridgedAPI.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzMatchDelegate.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_GameBoard.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_BoundsController.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/iOS/MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/Events/SkillzEvents.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/AndroidXmlDocumentExtensions.cs" />
+    <Compile Include="Assets/Skillz/Settings/EditorSettingsLoader.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/PreUnity2019Dot3PostGenerateGradleProject.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_Pool.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/InSDKScenesController.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_ParticleSystemManager.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_TutorialMenu.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_BrickController.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/iOS/Delegates.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Android/MultipleSeasonCallback.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/AndroidManifest.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/Season.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/ReflectionHelper.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_PreMatchMenuController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/SkillzHelpLink.cs" />
+    <Compile Include="Assets/Skillz/Prefabs/Scripts/SkillzDebugController.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Android/ReceivedEventCallback.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_BallManager.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SDKScenesLoader.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_MatchManager.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_SkillzMatchManager.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_AntiCheatVault.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/AndroidXmlDocument.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/UITextGradient.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_ProgressionManager.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Dummy/BridgedAPI.cs" />
+    <Compile Include="Assets/Skillz/Prefabs/Scripts/SkillzExampleMatchDelegate.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/IRandom.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/MatchTypeTemplates.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/Events/SkillzEventsHandler.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/ProgressionNamespace.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/APIResponseSimulator.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/SkillzHelpButtonController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/MatchCompleteManager.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/Directories.cs" />
+    <Compile Include="Assets/Skillz/Settings/SettingsLoader.cs" />
+    <Compile Include="Assets/Skillz/Internal/UnityEditor/MenuItems.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzMatch.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/CustomServerConnectionInfo.cs" />
+    <Compile Include="Assets/Skillz/Examples/Basic Example/Scripts/SkillzExampleLaunchSkillz.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/PostGenerateGradleAndroidProject.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Android/ProgressionCallback.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/PlayerTemplates.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/GradientBackground.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/GradleProperties.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzHelpers.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/IAsyncAPI.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzManager.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_SceneChangeFade.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_PauseMenuController.cs" />
+    <Compile Include="Assets/Skillz/Internal/Build/Android/ExcludeType.cs" />
+    <Compile Include="Assets/Skillz/Prefabs/Scripts/SkillzExampleMatchController.cs" />
+    <Compile Include="Assets/Skillz/Internal/API/Android/CurrentSeasonCallback.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/ProgressionValue.cs" />
+    <Compile Include="Assets/Skillz/Examples/Brick Break/Scripts/BB_MatchUIManager.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/ProgressionMetadata.cs" />
+    <Compile Include="Assets/Skillz/Internal/UnityEditor/ReadOnlyAttribute.cs" />
+    <Compile Include="Assets/Skillz/Examples/Basic Example/Scripts/SkillzExampleManagerLogic.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/Events/SkillzEventsDelegates.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SIDEkick/SkillzHelpButtonContent.cs" />
+    <Compile Include="Assets/Skillz/Settings/StringKeyValue.cs" />
+    <Compile Include="Assets/Skillz/Internal/Scripts/SkillzDebug.cs" />
+    <Compile Include="Assets/Skillz/Settings/RuntimeSettingsLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/RaccoonRescue/Textures_png/effects/Materials/CFXM_MobileParticleAdd_Alpha8.shader" />
@@ -712,6 +819,7 @@
     <None Include="Assets/8Ball/Shaders/TransparencShader.shader" />
     <None Include="Assets/KnifeHit/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/RaccoonRescue/Resources/Levels/23.txt" />
+    <None Include="Assets/Skillz/Examples/Brick Break/Readme.txt" />
     <None Include="Assets/8Ball/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/Solitaire/NavySoftGamesSolitaireKlondike/Shaders 1/UI Particle AddMultiply.shader" />
     <None Include="Assets/LegoPuzzleBlock/Utilities/Localization/Resources/strings-en.xml" />
@@ -750,6 +858,7 @@
     <None Include="Assets/StackBall/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/Solitaire/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/KnifeHit/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/Skillz/Readme.txt" />
     <None Include="Assets/RaccoonRescue/Resources/Levels/32.txt" />
     <None Include="Assets/KnifeHit/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/Solitaire/TextMesh Pro/Resources/Shaders/TMPro.cginc" />
@@ -772,6 +881,7 @@
     <None Include="Assets/Solitaire/NavySoftGamesSolitaireKlondike/Shaders 1/UISoftAdditive.shader" />
     <None Include="Assets/RaccoonRescue/Resources/Levels/71.txt" />
     <None Include="Assets/RaccoonRescue/Resources/Levels/8.txt" />
+    <None Include="Assets/Skillz/Resources/multidex-keep.txt" />
     <None Include="Assets/KnifeHit/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/RaccoonRescue/Resources/Levels/59.txt" />
     <None Include="Assets/Solitaire/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
@@ -786,6 +896,7 @@
     <None Include="Assets/RaccoonRescue/Textures_png/Textures/effects/Materials/CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets/8Ball/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/Solitaire/NavySoftGamesSolitaireKlondike/Shaders 1/UIImageCrop.shader" />
+    <None Include="Assets/Skillz/Examples/Basic Example/Readme.txt" />
     <None Include="Assets/KnifeHit/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/RaccoonRescue/Resources/Levels/65.txt" />
     <None Include="Assets/Demigiant/DOTween/readme.txt" />

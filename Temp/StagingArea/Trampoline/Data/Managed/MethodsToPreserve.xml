@@ -1,0 +1,209 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AllGamesMenu">
+			<method name="OpenBallPoolGame"/>
+			<method name="OpenBlockGame"/>
+			<method name="OpenBubbleShooterGame"/>
+			<method name="OpenKnifeGame"/>
+			<method name="OpenSolitaireGame"/>
+			<method name="OpenStackballGame"/>
+			<method name="PlayBtnClicked"/>
+		</type>
+		<type fullname="AnimationManager">
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="BlockPuzzle_GameStake.RewardedAds">
+			<method name="ShowRewardedAD"/>
+		</type>
+		<type fullname="BubbleBlitz_GameStake.RewardedAds">
+			<method name="ShowRewardedAD"/>
+		</type>
+		<type fullname="GameController">
+			<method name="SubmitBtnClicked"/>
+		</type>
+		<type fullname="GameOver">
+			<method name="SubmitScorebtnClicked"/>
+		</type>
+		<type fullname="GamePlayManager">
+			<method name="BackToHome"/>
+			<method name="BackToHome"/>
+			<method name="PauseBtnClicked"/>
+			<method name="RestartGame"/>
+			<method name="RestartGame"/>
+			<method name="StartAgain"/>
+			<method name="StartAgain"/>
+			<method name="ThrowKnife"/>
+		</type>
+		<type fullname="GamePlayUI">
+			<method name="OnHelpBtnClicked"/>
+		</type>
+		<type fullname="GameUI">
+			<method name="HowToPlayBtnClicked"/>
+			<method name="Pause_QuitBtnClicked"/>
+			<method name="Pause_ResumeBtnClicked"/>
+			<method name="PauseBtnCLicked"/>
+			<method name="PlayBtnCLicked"/>
+			<method name="PlayBtnCLicked"/>
+			<method name="Settings"/>
+			<method name="SubmitBtnClicked"/>
+			<method name="SubmitScoreAndRestartGame"/>
+			<method name="SubmitScorebtnClicked"/>
+		</type>
+		<type fullname="HelpScript">
+			<method name="ContinueBtnClicked"/>
+			<method name="ContinueBtnClicked"/>
+			<method name="ContinueBtnClicked"/>
+		</type>
+		<type fullname="Howtoplay">
+			<method name="ContinueBtnClicked"/>
+			<method name="NextBtnClicked"/>
+		</type>
+		<type fullname="HowtoPlay">
+			<method name="CloseBtnCLicked"/>
+			<method name="ContinueBtnClicked"/>
+			<method name="NextBtnClicked"/>
+		</type>
+		<type fullname="HUDController">
+			<method name="OnUndoPressed"/>
+		</type>
+		<type fullname="KnifeGame_Gamestake.RewardedAds">
+			<method name="ShowRewardedAD"/>
+		</type>
+		<type fullname="MenuComplete">
+			<method name="SubmitScorebtnClicked"/>
+			<method name="SubmitScorebtnClicked"/>
+		</type>
+		<type fullname="MenuManager">
+			<method name="SubmitBtnClicked"/>
+		</type>
+		<type fullname="MenuPause">
+			<method name="PauseTitleClicked"/>
+		</type>
+		<type fullname="PanelOpener">
+			<method name="openPanel"/>
+			<method name="openPanel"/>
+			<method name="openPanel"/>
+		</type>
+		<type fullname="PausedScreen">
+			<method name="MusicBtnClicked"/>
+			<method name="MusicBtnClicked"/>
+			<method name="QuitBtnClicked"/>
+		</type>
+		<type fullname="PoolGame_GameStake.RewardedAds">
+			<method name="ShowRewardedAD"/>
+		</type>
+		<type fullname="Poolgame_HowtoPlay">
+			<method name="CloseBtn_1_Clicked"/>
+			<method name="CloseBtn_2_Clicked"/>
+			<method name="NextBtnClicked"/>
+		</type>
+		<type fullname="SceneManagerScript">
+			<method name="GoToExitScreen"/>
+			<method name="GoToExitScreen"/>
+		</type>
+		<type fullname="ScoreController">
+			<method name="HowToPlayBtnClicked"/>
+			<method name="Pause_QuitBtnCLicked"/>
+			<method name="Pause_ResumeButtonCLicked"/>
+			<method name="PauseBtnClicked"/>
+			<method name="SoundButton"/>
+			<method name="SubmitBtnClicked"/>
+			<method name="SubmitScoreSkillzbtnClicked"/>
+		</type>
+		<type fullname="SettingsPage">
+			<method name="MusicBtnClicked"/>
+		</type>
+		<type fullname="SettingUI">
+			<method name="Pause_QuitBtn"/>
+			<method name="Pause_ResumeBtn"/>
+			<method name="WatchVideo_SubmitBtnCLicked"/>
+		</type>
+		<type fullname="Solitaire_GameStake.HowtoPlay">
+			<method name="ContinueBtnClicked"/>
+		</type>
+		<type fullname="Solitaire_GameStake.RewardedAds">
+			<method name="ShowRewardedAD"/>
+		</type>
+		<type fullname="Solitaire_GameStake.SettingsPage">
+			<method name="MusicBtnClicked"/>
+			<method name="Pause_QuitBtn"/>
+			<method name="Pause_ResumeBtnClicked"/>
+			<method name="SoundBtnClicked"/>
+		</type>
+		<type fullname="SoundOrMusicBtn">
+			<method name="OnMusicBtnClicked"/>
+			<method name="OnMusicBtnClicked"/>
+			<method name="OnSoundButtonClick"/>
+			<method name="OnSoundButtonClick"/>
+		</type>
+		<type fullname="Stackball_GameStake.HelpScript">
+			<method name="CloseBtnCLicked"/>
+			<method name="ContinueBtnClicked"/>
+			<method name="NextBtnClicked"/>
+		</type>
+		<type fullname="Stackball_RewardedAds">
+			<method name="ShowRewardedAD"/>
+		</type>
+		<type fullname="StageManager">
+			<method name="Gameover_HomeBtnClicked"/>
+			<method name="Pause_RulesBtnClicked"/>
+			<method name="PauseBtnClicked"/>
+			<method name="StartAgain"/>
+			<method name="StartAgain"/>
+			<method name="StartAgain"/>
+			<method name="SubmitScorebtnClicked"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Selectable">
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+		</type>
+	</assembly>
+</linker>
