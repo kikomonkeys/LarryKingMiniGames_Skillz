@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AllPopupsSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 12
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 1f51304eb364634498c47dc21f7fadc7, type: 3}
+    - {fileID: 2800000, guid: 26d2dffc88c3a2c49915a72388df9d04, type: 3}
+    - {fileID: 2800000, guid: 1e6afdda45e8c85448be5a6ca45b1ae3, type: 3}
+    - {fileID: 2800000, guid: 660d072b9c51fba40b171ec06668f8ed, type: 3}
+    - {fileID: 2800000, guid: 15176feb96b02c44baf7ac78689080ee, type: 3}
+    - {fileID: 2800000, guid: abff0850a10e01344807a00f7dcc430c, type: 3}
+    - {fileID: 2800000, guid: 2c161279c31006a459d99df713c62f56, type: 3}
+    - {fileID: 2800000, guid: f72c02829018811498b512074052a0d4, type: 3}
+    - {fileID: 2800000, guid: 8f22ec88688e31b47935654ecd3b5a4c, type: 3}
+    - {fileID: 2800000, guid: 8cca6e7baf25ba841b9db00bbedd632d, type: 3}
+    - {fileID: 2800000, guid: 099bebf86cf704640a5bbd6a3215bda7, type: 3}
+    - {fileID: 2800000, guid: 4e58fc27544838f40b41a6edba8056e5, type: 3}
+    - {fileID: 2800000, guid: 0a19ffceedb04e24abc45ce50b27ad6d, type: 3}
+    - {fileID: 2800000, guid: 0b6cfdd3f3cd3304a939f7537189507d, type: 3}
+    - {fileID: 2800000, guid: 61885ab972d7f0c40a1c76a09a25947e, type: 3}
+    - {fileID: 2800000, guid: 64e130e9a652b0c4992e0ee0b3dcd31d, type: 3}
+    - {fileID: 2800000, guid: 12ea3de9ab7c790438feb3d532b2cf96, type: 3}
+    - {fileID: 2800000, guid: 5a64dd6c39f713f49bd6ec29487c556d, type: 3}
+    - {fileID: 2800000, guid: ff1c53ee1c164d34c9e2e3e07392bac1, type: 3}
+    - {fileID: 2800000, guid: f3bab081eaab74246a8e9c2feb1bbde2, type: 3}
+    - {fileID: 2800000, guid: 8f2d638ec742b3f4dba0882e51226f84, type: 3}
+    - {fileID: 2800000, guid: 12ef50f2234d8c14b83e5d3a7d8dce48, type: 3}
+    - {fileID: 2800000, guid: c5ddf43d82dd32a4db239e4b6eb86e99, type: 3}
+    - {fileID: 2800000, guid: 9f3e7d6b1d78a1a42820ab49cd81dfe4, type: 3}
+    - {fileID: 2800000, guid: 64c741f88b85823488f6e36182a9e7ca, type: 3}
+    - {fileID: 2800000, guid: df4cb5c3d214d8049aae56c416327124, type: 3}
+    - {fileID: 2800000, guid: 7e7cd64cdbb229f4184f11f43bebcdc5, type: 3}
+    - {fileID: 2800000, guid: 675e7f612c91636498ab7b6e456a009e, type: 3}
+    - {fileID: 2800000, guid: 7d1bbcf7867d19d44afc852db6aa35a5, type: 3}
+    - {fileID: 2800000, guid: f7be54a26737c094594c7af5384fb3fb, type: 3}
+    - {fileID: 2800000, guid: 8e8d79fccfc6aba458d265323c4b7d65, type: 3}
+    - {fileID: 2800000, guid: f9a374f7bd3d63e4e9443d2710750828, type: 3}
+    totalSpriteSurfaceArea: 4359856
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: abff0850a10e01344807a00f7dcc430c, type: 3}
+  - {fileID: 21300000, guid: 675e7f612c91636498ab7b6e456a009e, type: 3}
+  - {fileID: 21300000, guid: f3bab081eaab74246a8e9c2feb1bbde2, type: 3}
+  - {fileID: 21300000, guid: f72c02829018811498b512074052a0d4, type: 3}
+  - {fileID: 21300000, guid: f7be54a26737c094594c7af5384fb3fb, type: 3}
+  - {fileID: 21300000, guid: 12ef50f2234d8c14b83e5d3a7d8dce48, type: 3}
+  - {fileID: 21300000, guid: df4cb5c3d214d8049aae56c416327124, type: 3}
+  - {fileID: 21300000, guid: 0b6cfdd3f3cd3304a939f7537189507d, type: 3}
+  - {fileID: 21300000, guid: 4e58fc27544838f40b41a6edba8056e5, type: 3}
+  - {fileID: 21300000, guid: f9a374f7bd3d63e4e9443d2710750828, type: 3}
+  - {fileID: 21300000, guid: 7d1bbcf7867d19d44afc852db6aa35a5, type: 3}
+  - {fileID: 21300000, guid: 8f22ec88688e31b47935654ecd3b5a4c, type: 3}
+  - {fileID: 21300000, guid: 64c741f88b85823488f6e36182a9e7ca, type: 3}
+  - {fileID: 21300000, guid: 099bebf86cf704640a5bbd6a3215bda7, type: 3}
+  - {fileID: 21300000, guid: 2c161279c31006a459d99df713c62f56, type: 3}
+  - {fileID: 21300000, guid: 61885ab972d7f0c40a1c76a09a25947e, type: 3}
+  - {fileID: 21300000, guid: 64e130e9a652b0c4992e0ee0b3dcd31d, type: 3}
+  - {fileID: 21300000, guid: 12ea3de9ab7c790438feb3d532b2cf96, type: 3}
+  - {fileID: 21300000, guid: 1e6afdda45e8c85448be5a6ca45b1ae3, type: 3}
+  - {fileID: 21300000, guid: 660d072b9c51fba40b171ec06668f8ed, type: 3}
+  - {fileID: 21300000, guid: 9f3e7d6b1d78a1a42820ab49cd81dfe4, type: 3}
+  - {fileID: 21300000, guid: 8cca6e7baf25ba841b9db00bbedd632d, type: 3}
+  - {fileID: 21300000, guid: 15176feb96b02c44baf7ac78689080ee, type: 3}
+  - {fileID: 21300000, guid: 7e7cd64cdbb229f4184f11f43bebcdc5, type: 3}
+  - {fileID: 21300000, guid: 5a64dd6c39f713f49bd6ec29487c556d, type: 3}
+  - {fileID: 21300000, guid: 8e8d79fccfc6aba458d265323c4b7d65, type: 3}
+  - {fileID: 21300000, guid: 26d2dffc88c3a2c49915a72388df9d04, type: 3}
+  - {fileID: 21300000, guid: c5ddf43d82dd32a4db239e4b6eb86e99, type: 3}
+  - {fileID: 21300000, guid: 1f51304eb364634498c47dc21f7fadc7, type: 3}
+  - {fileID: 21300000, guid: 8f2d638ec742b3f4dba0882e51226f84, type: 3}
+  - {fileID: 21300000, guid: 0a19ffceedb04e24abc45ce50b27ad6d, type: 3}
+  - {fileID: 21300000, guid: ff1c53ee1c164d34c9e2e3e07392bac1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - avatar group box
+  - raking prize box
+  - how to play circle
+  - bg
+  - score box
+  - icon lower box
+  - personal scor box
+  - hop 01
+  - game over pop up
+  - timer box
+  - rules box
+  - enter name box
+  - pause pop up
+  - entry fee box
+  - avatar selection
+  - hop 02
+  - hop 03
+  - hop 4 player 01
+  - 3 player vs group box
+  - 5 player vs box
+  - leag info 8 players
+  - exit pop up
+  - 8 player vs box
+  - pop up overlay
+  - hop 4 player 02
+  - select avatar pop up
+  - 3 player vs box
+  - leag info 5 players
+  - 2 player vs box
+  - leader board box
+  - group box for tournament
+  - how to play 4 holder
+  m_RenderDataMap: {}
+  m_Tag: AllPopupsSpriteAtlas
+  m_IsVariant: 0

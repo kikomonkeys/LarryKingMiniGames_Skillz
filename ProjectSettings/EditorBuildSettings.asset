@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AllGamesMenu.unity
+    guid: f88c99896a07e8449a3ee2253c282b86
+  - enabled: 1
+    path: Assets/8Ball/Scenes/PoolGame_GameScene.unity
+    guid: cc305359b20c44c969982101dff7fdf5
+  - enabled: 1
+    path: Assets/LegoPuzzleBlock/Scenes/blockpuzzle_mainmenu.unity
+    guid: febb9f0e9cd347a40a7856f7908731b5
+  - enabled: 1
+    path: Assets/LegoPuzzleBlock/Scenes/blockpuzzle_ingame.unity
+    guid: f8690d4b175b40849bd42f542f0ebecd
+  - enabled: 1
+    path: Assets/RaccoonRescue/Scenes/bubbleshootgame.unity
+    guid: d825ec197968f4844b7a41d3e2cd75f3
+  - enabled: 1
+    path: Assets/Solitaire/NavySoftGamesSolitaireKlondike/Scenes/Stage.unity
+    guid: b64c6934bd846d14c90db1bc2fe4f6d4
+  - enabled: 1
+    path: Assets/StackBall/Scenes/MainScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/KnifeHit/Scene/GameScene.unity
+    guid: 4b2c5e58e2a2d0f4386a669c0a3a4393
+  m_configObjects: {}

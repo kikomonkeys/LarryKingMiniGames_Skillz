@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LoadingAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: bf43cdab599973b41a63cacc67f19dae, type: 3}
+    - {fileID: 2800000, guid: 3d1430634e7d90445a079305f8713636, type: 3}
+    - {fileID: 2800000, guid: 1bd62255b44c6ce46985dc04359ed56c, type: 3}
+    - {fileID: 2800000, guid: ea989eb80c1224945b27a0eb250da223, type: 3}
+    - {fileID: 2800000, guid: c0d90c71d088f4242a6f465f89b3960b, type: 3}
+    - {fileID: 2800000, guid: 81988c5bdfbc6e94aad2a797350bfbf5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c0d90c71d088f4242a6f465f89b3960b, type: 3}
+  - {fileID: 21300000, guid: 3d1430634e7d90445a079305f8713636, type: 3}
+  - {fileID: 21300000, guid: 1bd62255b44c6ce46985dc04359ed56c, type: 3}
+  - {fileID: 21300000, guid: ea989eb80c1224945b27a0eb250da223, type: 3}
+  - {fileID: 21300000, guid: 81988c5bdfbc6e94aad2a797350bfbf5, type: 3}
+  - {fileID: 21300000, guid: bf43cdab599973b41a63cacc67f19dae, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Games-powered-by-Piperplay
+  - Title-1
+  - Loading-bar-2
+  - Loading-bar-1
+  - Background-for-Loading
+  - Title-2
+  m_RenderDataMap: {}
+  m_Tag: LoadingAtlas
+  m_IsVariant: 0

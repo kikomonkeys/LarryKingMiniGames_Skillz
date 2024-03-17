@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: win
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 720df03dd614c4fbd9e88666d5d9505c, type: 3}
+    - {fileID: 2800000, guid: 53e002a598a75452fbc861ea04802d48, type: 3}
+    - {fileID: 2800000, guid: 8e457b88119a8499895ee629db890328, type: 3}
+    - {fileID: 2800000, guid: c11a0899fc3b8475984ac4031a5ec7d7, type: 3}
+    - {fileID: 2800000, guid: 60e2e42fa1d764a2c9c56e5f4267a87c, type: 3}
+    - {fileID: 2800000, guid: edd6857bdd81642caa2fba24ec3438e7, type: 3}
+    totalSpriteSurfaceArea: 665860
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 53e002a598a75452fbc861ea04802d48, type: 3}
+  - {fileID: 21300000, guid: 8e457b88119a8499895ee629db890328, type: 3}
+  - {fileID: 21300000, guid: c11a0899fc3b8475984ac4031a5ec7d7, type: 3}
+  - {fileID: 21300000, guid: edd6857bdd81642caa2fba24ec3438e7, type: 3}
+  - {fileID: 21300000, guid: 720df03dd614c4fbd9e88666d5d9505c, type: 3}
+  - {fileID: 21300000, guid: 60e2e42fa1d764a2c9c56e5f4267a87c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - SHARE-text
+  - SHARE_button
+  - win_pink_banner
+  - for_score
+  - NEXT-text
+  - your_score_text
+  m_RenderDataMap: {}
+  m_Tag: win
+  m_IsVariant: 0

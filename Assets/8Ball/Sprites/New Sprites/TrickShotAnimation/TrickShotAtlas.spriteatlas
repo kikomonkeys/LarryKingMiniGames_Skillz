@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TrickShotAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4584819f0290c42419e23c9a13c0975d, type: 3}
+    - {fileID: 2800000, guid: 1237179f6376d9d428918dff7c331a35, type: 3}
+    - {fileID: 2800000, guid: 8fdb106ab1d90564684722b107ae15b7, type: 3}
+    - {fileID: 2800000, guid: 9e8f8b82a6c6f30459badde25826c985, type: 3}
+    - {fileID: 2800000, guid: 1f20fcd8cea3a1f42944b85bb08cd42d, type: 3}
+    - {fileID: 2800000, guid: ae295a17d4b46b1438bed3035b87ba6c, type: 3}
+    - {fileID: 2800000, guid: b76c991211388e744a6f894a26485382, type: 3}
+    - {fileID: 2800000, guid: 91ea6d8146709644e9faddb8e2719fe0, type: 3}
+    - {fileID: 2800000, guid: a03bf0906e580b04ba676dc2c2ab0275, type: 3}
+    - {fileID: 2800000, guid: 87518ccafb067d64eb0a8f42a93c0190, type: 3}
+    - {fileID: 2800000, guid: 7188f9cf8fdf224459f0a139101cd5d7, type: 3}
+    - {fileID: 2800000, guid: c6d8fce06aedc6c4e9f27866814dc4d3, type: 3}
+    - {fileID: 2800000, guid: ed19070ad73c2d646a87da0bed51a43b, type: 3}
+    - {fileID: 2800000, guid: 7480a97c8e7e17c499b8533c4c66ca97, type: 3}
+    - {fileID: 2800000, guid: 4857117e2eaec7843b12ebb2090a1219, type: 3}
+    - {fileID: 2800000, guid: 0d53cd65248611246b34b7495a812727, type: 3}
+    - {fileID: 2800000, guid: a3c175a308891bf4089919e249b5ac17, type: 3}
+    - {fileID: 2800000, guid: 1f35d26f4cfe674448f549ede3ccd708, type: 3}
+    - {fileID: 2800000, guid: 8774313a88349d940b66d53580f042e1, type: 3}
+    - {fileID: 2800000, guid: 4b13896cab4b94a48a22aa43e640100a, type: 3}
+    - {fileID: 2800000, guid: 092ec9586b39f30409f5028f841890a1, type: 3}
+    - {fileID: 2800000, guid: 8488e9d8af653174686b1c31d5c8baf2, type: 3}
+    - {fileID: 2800000, guid: c14cdd0ffbb8b5c44aeefdfe7f92ddc5, type: 3}
+    - {fileID: 2800000, guid: 70cc46dd6db46cf48ae7da38a828d1ad, type: 3}
+    - {fileID: 2800000, guid: 1fa0ce681b601ce4cae53d3ea1099c19, type: 3}
+    - {fileID: 2800000, guid: dd4c6ab59fdae6344bde6763eace6ce1, type: 3}
+    - {fileID: 2800000, guid: 4127c8208d805dc43a896a2811214408, type: 3}
+    - {fileID: 2800000, guid: a8436a9d646d3c74a90c8c22e7e55a1b, type: 3}
+    - {fileID: 2800000, guid: ddedc0c9b514c084a9fb321cc0d9a67a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4127c8208d805dc43a896a2811214408, type: 3}
+  - {fileID: 21300000, guid: a03bf0906e580b04ba676dc2c2ab0275, type: 3}
+  - {fileID: 21300000, guid: c6d8fce06aedc6c4e9f27866814dc4d3, type: 3}
+  - {fileID: 21300000, guid: 91ea6d8146709644e9faddb8e2719fe0, type: 3}
+  - {fileID: 21300000, guid: b76c991211388e744a6f894a26485382, type: 3}
+  - {fileID: 21300000, guid: 9e8f8b82a6c6f30459badde25826c985, type: 3}
+  - {fileID: 21300000, guid: a3c175a308891bf4089919e249b5ac17, type: 3}
+  - {fileID: 21300000, guid: 0d53cd65248611246b34b7495a812727, type: 3}
+  - {fileID: 21300000, guid: dd4c6ab59fdae6344bde6763eace6ce1, type: 3}
+  - {fileID: 21300000, guid: ae295a17d4b46b1438bed3035b87ba6c, type: 3}
+  - {fileID: 21300000, guid: 092ec9586b39f30409f5028f841890a1, type: 3}
+  - {fileID: 21300000, guid: 1fa0ce681b601ce4cae53d3ea1099c19, type: 3}
+  - {fileID: 21300000, guid: 8488e9d8af653174686b1c31d5c8baf2, type: 3}
+  - {fileID: 21300000, guid: 1f20fcd8cea3a1f42944b85bb08cd42d, type: 3}
+  - {fileID: 21300000, guid: ddedc0c9b514c084a9fb321cc0d9a67a, type: 3}
+  - {fileID: 21300000, guid: ed19070ad73c2d646a87da0bed51a43b, type: 3}
+  - {fileID: 21300000, guid: 8774313a88349d940b66d53580f042e1, type: 3}
+  - {fileID: 21300000, guid: 8fdb106ab1d90564684722b107ae15b7, type: 3}
+  - {fileID: 21300000, guid: 87518ccafb067d64eb0a8f42a93c0190, type: 3}
+  - {fileID: 21300000, guid: 4b13896cab4b94a48a22aa43e640100a, type: 3}
+  - {fileID: 21300000, guid: 7480a97c8e7e17c499b8533c4c66ca97, type: 3}
+  - {fileID: 21300000, guid: a8436a9d646d3c74a90c8c22e7e55a1b, type: 3}
+  - {fileID: 21300000, guid: 70cc46dd6db46cf48ae7da38a828d1ad, type: 3}
+  - {fileID: 21300000, guid: 4857117e2eaec7843b12ebb2090a1219, type: 3}
+  - {fileID: 21300000, guid: c14cdd0ffbb8b5c44aeefdfe7f92ddc5, type: 3}
+  - {fileID: 21300000, guid: 1f35d26f4cfe674448f549ede3ccd708, type: 3}
+  - {fileID: 21300000, guid: 4584819f0290c42419e23c9a13c0975d, type: 3}
+  - {fileID: 21300000, guid: 1237179f6376d9d428918dff7c331a35, type: 3}
+  - {fileID: 21300000, guid: 7188f9cf8fdf224459f0a139101cd5d7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fx 01_00002
+  - fx 01_00020
+  - fx 01_00017
+  - fx 01_00021
+  - fx 01_00022
+  - fx 01_00025
+  - fx 01_00012
+  - fx 01_00013
+  - fx 01_00003
+  - fx 01_00023
+  - fx 01_00008
+  - fx 01_00004
+  - fx 01_00007
+  - fx 01_00024
+  - fx 01_00000
+  - fx 01_00016
+  - fx 01_00010
+  - fx 01_00026
+  - fx 01_00019
+  - fx 01_00009
+  - fx 01_00015
+  - fx 01_00001
+  - fx 01_00005
+  - fx 01_00014
+  - fx 01_00006
+  - fx 01_00011
+  - fx 01_00028
+  - fx 01_00027
+  - fx 01_00018
+  m_RenderDataMap: {}
+  m_Tag: TrickShotAtlas
+  m_IsVariant: 0
