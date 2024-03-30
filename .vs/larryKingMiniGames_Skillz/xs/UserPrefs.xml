@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{4CD7B348-0B16-39A1-F21E-45C638D84C0C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LegoPuzzleBlock/Scripts/UIScripts/GameOver.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Skillz/Internal/Scripts/SkillzManager.cs">
     <Files>
       <File FileName="Assets/8Ball/Scripts/PoolGame_GameManager.cs" Line="85" Column="16" />
       <File FileName="Assets/Skillz/Internal/Scripts/MiniJSON.cs" />
       <File FileName="Assets/Skillz/Internal/Build/iOS/Editor/XCodeEditor/PBXParser.cs" />
-      <File FileName="Assets/Skillz/Internal/Scripts/SkillzManager.cs" Line="81" Column="12" />
-      <File FileName="Assets/AllGamesMenu.cs" Line="18" Column="68" />
-      <File FileName="Assets/8Ball/Scripts/Game/ScoreController.cs" Line="231" Column="1" />
+      <File FileName="Assets/Skillz/Internal/Scripts/SkillzManager.cs" Line="79" Column="50" />
+      <File FileName="Assets/AllGamesMenu.cs" Line="79" Column="24" />
+      <File FileName="Assets/8Ball/Scripts/Game/ScoreController.cs" Line="175" Column="34" />
       <File FileName="Assets/LegoPuzzleBlock/Scripts/UIScripts/GameOver.cs" Line="121" Column="2" />
       <File FileName="Assets/RaccoonRescue/Scripts/GUI/Menu/MenuComplete.cs" Line="294" Column="67" />
       <File FileName="Assets/Solitaire/NavySoftGamesSolitaireKlondike/Scripts/Stage/Stage Manager/StageManager.cs" Line="1147" Column="34" />
       <File FileName="Assets/StackBall/Scripts/GameUI Scripts/GameUI.cs" Line="648" Column="110" />
-      <File FileName="Assets/KnifeHit/Script/GamePlayManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/KnifeHit/Script/GamePlayManager.cs" Line="1234" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
